@@ -3,7 +3,7 @@ A 'State Machine Pattern' in C++ for own reference.
 
 # Diagrams
 
-![alt text](/ReadMePNG/StateMachine.png "State Machine Diagram")
+![alt text](/Readme/StateMachine.png "State Machine Diagram")
 
 # Links
 - [Wikipedia State Pattern](https://en.wikipedia.org/wiki/State_pattern)
