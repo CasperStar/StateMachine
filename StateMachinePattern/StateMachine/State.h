@@ -1,7 +1,7 @@
 #ifndef _STATEMACHINE_STATE_H_
 #define _STATEMACHINE_STATE_H_
 
-// Abstract Class
+// Abstract Class (Interface)
 class State
 {
 public:
@@ -11,7 +11,7 @@ public:
 	// Public methodes
 	virtual void PreviousState() =0;
 	virtual void NextState() =0;
-	virtual void DoSomeThingButton() = 0;
+	virtual void DoSomeThingButton() =0;
 };
 
 #endif // _STATEMACHINE_STATE_H_

@@ -13,9 +13,10 @@ public:
 
 	// Public Methodes
 	void SetState(State* arg_pState);
-	void PreviousState();
-	void NextState();
-	void DoSomeThingButton();
+
+	void PreviousState();		// Can be seen as the buttons of the machine
+	void NextState();			// Every state has a different implementation of the buttons
+	void DoSomeThingButton();	// Can be as many buttons or state as you desire
 
 private:
 	// Private variables

@@ -21,7 +21,7 @@ public:
 
 private:
 	// Private variables
-	Machine* m_pMachine;
+	Machine* m_pMachine;	// Needed to set the next state
 };
 
 #endif // _STATEMACHINE_STATEON_H_
