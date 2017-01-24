@@ -11,7 +11,7 @@ StateOn::~StateOn()
 
 void StateOn::PreviousState()
 {
-	m_pMachine->SetState(new StateOff(m_pMachine));
+	m_pMachine->SetState(new StateStarting(m_pMachine));
 	delete this;
 }
 

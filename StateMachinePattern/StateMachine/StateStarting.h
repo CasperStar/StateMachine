@@ -1,18 +1,19 @@
-#ifndef _STATEMACHINE_STATEON_H_
-#define _STATEMACHINE_STATEON_H_
+#ifndef _STATEMACHINE_STATESTARTING_H_
+#define _STATEMACHINE_STATESTARTING_H_
 
 // Include
 #include "State.h"
 #include "Machine.h"
-#include "StateStarting.h"
+#include "StateOn.h"
+#include "StateOff.h"
 #include <iostream>
 
-class StateOn : public State
+class StateStarting : public State
 {
 public:
 	// Constructor & Destructor
-	StateOn(Machine* arg_pMachine);
-	~StateOn();
+	StateStarting(Machine* arg_pMachine);
+	~StateStarting();
 
 	// Public methodes
 	void PreviousState();
@@ -24,4 +25,4 @@ private:
 	Machine* m_pMachine;
 };
 
-#endif // _STATEMACHINE_STATEON_H_
+#endif // _STATEMACHINE_STATESTARTING_H_
